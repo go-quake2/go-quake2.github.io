@@ -37,3 +37,13 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap", "404"]
   chipFgDark = "#eab181"
   statsEnd = "#f6ddc8"
   bandText = "#f9e8da"
+
+# The hero's buttons, rendered by landingkit's cta.html in the kit's order.
+[[params.cta]]
+  kind  = "docs"
+  href  = "https://github.com/go-quake1/engine#readme"
+  label = "go-quake1 (active)"
+[[params.cta]]
+  kind  = "github"
+  href  = "https://github.com/go-quake2"
+  label = "GitHub"
